@@ -46,5 +46,9 @@ describe('Planet', () => {
   test ('if getLifeExpectancy() receives an input that does not have a stored year value, it should return "Error: Planet not in record"', () => {
     expect(planet.getLifeExpectancy("Alpha Centauri 5")).toEqual("Error: Planet not in record");
   });
-  
+
+  test ('if age is greater than life expectancy, getLifeExpectancy should return that information plus the number of extra planet-years lived', () => {
+    planet.age=100;
+    expect(planet.getLifeExpectancy("Venus")).toEqual("You have exceeded your species's average life expectancy by 32 Venus years. Congratulations!");
+  });
 });
