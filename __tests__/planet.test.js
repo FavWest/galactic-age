@@ -42,5 +42,9 @@ describe('Planet', () => {
   test ('getLifeExpectancy("Jupiter") should return remaining years of life on Jupiter', () => {
     expect(planet.getLifeExpectancy("Jupiter")).toEqual(2);
   });
+
+  test ('if getLifeExpectancy() receives an input that does not have a stored year value, it should return "Error: Planet not in record"', () => {
+    expect(planet.getLifeExpectancy("Alpha Centauri 5")).toEqual("Error: Planet not in record");
+  });
   
 });
