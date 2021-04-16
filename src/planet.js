@@ -11,4 +11,7 @@ Planet {
   getVenusAge() {
     return parseInt(this.age/.62);
   }
+
+  getMarsAge() {
+  }
 }

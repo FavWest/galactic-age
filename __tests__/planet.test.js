@@ -11,12 +11,15 @@ describe('Planet', () => {
     expect(planet.age).toEqual(50);
   });
 
-  test ('getMercuryAge should return age in Mercury years', () => {
+  test ('getMercuryAge() should return age in Mercury years', () => {
     expect(planet.getMercuryAge()).toEqual(208);
   });
 
-  test ('getVenusAge should return age in Venus years', () => {
+  test ('getVenusAge() should return age in Venus years', () => {
     expect(planet.getVenusAge()).toEqual(80);
   });
 
+  test ('getMarsAge() should return age in Mars years', () => {
+    expect(planet.getMarsAge()).toEqual(26);
+  });
 });
