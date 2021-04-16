@@ -1,5 +1,3 @@
-import { parse } from "@babel/core";
-
 export default class 
 Planet {
   constructor(age) {
