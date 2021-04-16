@@ -23,5 +23,6 @@ Planet {
   }
 
   getLifeExpectancy(planet) {
+    return parseInt((80-this.age)/.24);
   }
 }
