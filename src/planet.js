@@ -7,4 +7,7 @@ Planet {
   getMercuryAge() {
     return parseInt(this.age/.24);
   }
+
+  getVenusAge() {
+  }
 }
