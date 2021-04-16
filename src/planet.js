@@ -30,6 +30,8 @@ Planet {
         return parseInt((80-this.age)/.62);
       case "Mars":
         return parseInt((80-this.age)/1.88);
+      case "Jupiter":
+        return parseInt((80-this.age)/11.86);
   }
 }
 }
