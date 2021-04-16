@@ -26,6 +26,8 @@ Planet {
     switch(planet){
       case "Mercury":
         return parseInt((80-this.age)/.24);
+      case "Venus":
+        return parseInt((80-this.age)/.62);
   }
 }
 }
