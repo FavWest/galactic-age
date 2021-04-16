@@ -1,3 +1,5 @@
+import { parse } from "@babel/core";
+
 export default class 
 Planet {
   constructor(age) {
@@ -17,5 +19,6 @@ Planet {
   }
 
   getJupiterAge() {
+    return parseInt(this.age/11.86);
   }
 }
