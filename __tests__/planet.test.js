@@ -34,4 +34,9 @@ describe('Planet', () => {
   test ('getLifeExpectancy("Venus") should return remaining years of life on Venus', () => {
     expect(planet.getLifeExpectancy("Venus")).toEqual(48);
   });
+
+  test ('getLifeExpectancy("Mars") should return remaining years of life on Mars', () => {
+    expect(planet.getLifeExpectancy("Mars")).toEqual(15);
+  });
+  
 });
