@@ -23,6 +23,9 @@ Planet {
   }
 
   getLifeExpectancy(planet) {
-    return parseInt((80-this.age)/.24);
+    switch(planet){
+      case "Mercury":
+        return parseInt((80-this.age)/.24);
   }
+}
 }
