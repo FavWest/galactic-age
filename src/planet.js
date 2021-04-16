@@ -13,5 +13,6 @@ Planet {
   }
 
   getMarsAge() {
+    return parseInt(this.age/1.88);
   }
 }
