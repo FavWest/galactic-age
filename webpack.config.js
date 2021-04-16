@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Example',
+      title: 'Galactic Age',
       template: './src/index.html',
       inject: 'body'
     })
