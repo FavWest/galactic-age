@@ -5,5 +5,6 @@ Planet {
   }
 
   getMercuryAge() {
+    return parseInt(this.age/.24);
   }
 }
