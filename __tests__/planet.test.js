@@ -26,4 +26,8 @@ describe('Planet', () => {
   test ('getJupiterAge() should return age in Jupiter years', () => {
     expect(planet.getJupiterAge()).toEqual(4);
   });
+
+  test ('getLifeExpectancy("Mercury") should return remaining years of life on Mercury', () => {
+    expect(planet.getLifeExpectancy("Mercury")).toEqual(125);
+  });
 });

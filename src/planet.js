@@ -21,4 +21,7 @@ Planet {
   getJupiterAge() {
     return parseInt(this.age/11.86);
   }
+
+  getLifeExpectancy(planet) {
+  }
 }
