@@ -19,9 +19,10 @@ _Enter your age to learn your age and life expectancy in different planets' year
 ## Setup/Installation Requirements
 _You'll need Git and Node.js_
 * Clone from GitHub
-* From project's root directory in the command line: `npm install`
-* Optionally: `npm run build`
+* From project's root directory in the command line/terminal: `npm install`
+* To build without launching, type `npm run build`
 * `npm run start` to build and run project on live development server
+* To run tests: from project's root directory in the command line/terminal, `npm run test`
 
 ## Known Bugs
 
