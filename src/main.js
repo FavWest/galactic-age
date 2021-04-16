@@ -7,7 +7,6 @@ import Planet from './planet.js';
 $(document).ready(function() {
   let planet;
   let age;
-  alert("JQuery connected");
   $("#mercury-age").click(function(event){
     event.preventDefault();
     age=parseInt($("#age").val());

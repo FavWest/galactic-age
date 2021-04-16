@@ -1,3 +1,25 @@
 #display-planet-age{
   display:none;
 }
+
+.centered {
+  text-align: center;
+}
+
+#age-box {
+  margin: 2%;
+}
+
+.jumbotron {
+  background-color: darkblue;
+  color: deepskyblue;
+}
+
+button {
+  background-color: deepskyblue;
+  color: darkblue;
+}
+
+body {
+  background-color: lightgray;
+}
