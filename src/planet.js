@@ -37,7 +37,9 @@ Planet {
       case "Jupiter":
         multiplier=11.86;
         break;
-  }
+      default:
+        return "Error: Planet not in record";
+    }
   return parseInt((80-this.age)/multiplier);
-}
+  }
 }
