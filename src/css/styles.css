@@ -2,6 +2,10 @@
   display:none;
 }
 
+#reminder{
+  display: none;
+}
+
 .centered {
   text-align: center;
 }
