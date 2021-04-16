@@ -22,4 +22,8 @@ describe('Planet', () => {
   test ('getMarsAge() should return age in Mars years', () => {
     expect(planet.getMarsAge()).toEqual(26);
   });
+
+  test ('getJupiterAge() should return age in Jupiter years', () => {
+    expect(planet.getJupiterAge()).toEqual(4);
+  });
 });
