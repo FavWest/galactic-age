@@ -40,6 +40,13 @@ Planet {
       default:
         return "Error: Planet not in record";
     }
-  return parseInt((80-this.age)/multiplier);
+    if (this.age<=80) {
+      return parseInt((80-this.age)/multiplier);
+    }
+    else {
+      let yearsExceeded = parseInt((this.age-80)/multiplier);
+      return `You have exceeded your species's average life expectancy by ${yearsExceeded} ${planet} years. Congratulations!`
+    }
   }
+
 }
