@@ -4,6 +4,22 @@
   <title>Galactic Age</title>
 </head>
 <body>
-
+<h1>Galactic Age</h1>
+<form id="form1">
+  <label for="age">My age on Earth is:</label>
+  <input id="age" type="number">
+  <h2>Calculate my age on...</h2>
+  <button id="mercury-age" type="submit">Mercury</button>
+  <button id="venus-age" type="submit">Venus</button>
+  <button id="mars-age" type="submit">Mars</button>
+  <button id="jupiter-age" type="submit">Jupiter</button>
+</form>
+<div id="display-planet-age">
+  <p>You are</p>
+  <p id="planet-age"></p>
+  <p>years old in <span class="planet-name"></span> years</p>
+  <p>Years remaining on <span class="planet-name"></span>:</p>
+  <p id="life-expectancy"></p>
+</div>
 </body>
 </html>
