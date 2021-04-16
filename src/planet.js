@@ -23,15 +23,21 @@ Planet {
   }
 
   getLifeExpectancy(planet) {
+    let multiplier=0;
     switch(planet){
       case "Mercury":
-        return parseInt((80-this.age)/.24);
+        multiplier=.24;
+        break;
       case "Venus":
-        return parseInt((80-this.age)/.62);
+        multiplier=.62;
+        break;
       case "Mars":
-        return parseInt((80-this.age)/1.88);
+        multiplier=1.88;
+        break;
       case "Jupiter":
-        return parseInt((80-this.age)/11.86);
+        multiplier=11.86;
+        break;
   }
+  return parseInt((80-this.age)/multiplier);
 }
 }
